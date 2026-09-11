@@ -14,3 +14,5 @@ void main(void)
 	printf("\n%.0f",divide);
 	printf("%.0f",subs);
 }
+
+

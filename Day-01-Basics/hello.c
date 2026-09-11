@@ -9,3 +9,4 @@ void main(void){
 	//display Output
 	printf("%d",result);
 }
+
