@@ -35,14 +35,14 @@ int main(void){
     // printf("Hello C \n");
     // printf("Hello C \n");
 
-    int age = 21;
-    printf("Age is %d \n",age); // formet spicifer %d
+    // int age = 21;
+    // printf("Age is %d \n",age); // formet spicifer %d
 
-    float pi = 3.14;
-    printf("age is %f \n",pi); // by default after point 6 digit in float 
+    // float pi = 3.14;
+    // printf("age is %f \n",pi); // by default after point 6 digit in float 
 
-    char star = '*';
-    printf("star is %c",star);
+    // char star = '*';
+    // printf("star is %c",star);
 
     // Input is library function 
     // ampersand  &
@@ -52,11 +52,12 @@ int main(void){
     // printf("Age is %d",age);
 
     // program 1  :   sum calculation using input 
-    int num1,num2;
-    printf("Enter First Number: ");
-    scanf("%d",&num1);
-    printf("Enter Second Number: ");
-    scanf("%d",&num2);
-    printf("total : %d",num1 + num2);
+    // int num1,num2;
+    // printf("Enter First Number: ");
+    // scanf("%d",&num1);
+    // printf("Enter Second Number: ");
+    // scanf("%d",&num2);
+    // printf("total : %d",num1 + num2);
+
     return 0;
 }
