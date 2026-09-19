@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Qno1: Write a program to calculate area of a circle 
+// Qno1: Write a program to calculate persontage of exam marks
 
 int main(void){
     float obt_mark,total_mark;
