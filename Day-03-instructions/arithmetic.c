@@ -32,11 +32,20 @@ int main(void){
 
     //  Moduler Operator %
     // return reminder for int 
-    printf("%d \n", 14%6); // 2 is reminder 
-    printf("%d ", -14 % 6); // numireter is negative so output is also negative
+    // printf("%d \n", 14%6); // 2 is reminder 
+    // printf("%d ", -14 % 6); // numireter is negative so output is also negative
     
+    // 
+    // int a,b;
+    // a , b = 2 + 2;
+    // printf("%d",b);
+
+
+    // Type Conversion
+    // printf("%d\n",2*2); 
+    // printf("%f\n",2.0*2.0); 
+    // printf("%f\n",4/2); 
+    // printf("%d",3/2); 
     return 0 ;
-
-
 
 }
