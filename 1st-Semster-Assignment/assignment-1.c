@@ -67,8 +67,9 @@ int main(void){
     
     char name[] = "Muzaffar ALi"; 
     char address[] = "P.O Box Adilpur District Ghotki Sindh";
+    char cnic[] = "45102-01040822-4";
     
-    printf("Name:\t%s\nAddress: %s\nCNIC:\t45102010408224",name,address);
+    printf("Name:\t%s\nAddress: %s\nCNIC:\t%s",name,address,cnic);
     
 
     return 0;
