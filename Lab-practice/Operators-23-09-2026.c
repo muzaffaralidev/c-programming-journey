@@ -26,14 +26,21 @@ int main(void){
 // <= less than or equals to
 
 // EXAMPLE 1 OF IF WITH RELATIONAL OPERATORS
-//  int a,b,c;
-//  a = 9;
-//  b = 5;
-//  c = a < b;
-//  if(a < b)
-//  printf("muzaffar");
-//  printf("ALi");
-//  printf("kalwar");
+ int a,b,c;
+ a = 9;
+ b = 5;
+ c = a < b;
+ if(a < b)
+ printf("Muzaffar");
+ printf("Ali");
+ printf("kalwar");
+
+
+
+
+
+
+
 
 
 // -----------------------------
@@ -53,15 +60,15 @@ int main(void){
 //  1   1  1
 
 // lOGICAL AND OPERATER EXAMPLE &&
-//   int x,y,z;
-//    x = 5;
-//    y = 6;
-//    z = 10;
-//   if((x == y) && (y < z)){
-//   	printf("Hello Muzaffar Ali");
-// 	}else{
-// 		printf("Hello Class");
-// 	}
+  int x,y,z;
+   x = 5;
+   y = 6;
+   z = 10;
+  if((x == y) && (y < z)){
+  	printf("Hello Muzaffar Ali");
+	}else{
+		printf("Hello Class");
+	}
 
 
 
@@ -95,15 +102,15 @@ int main(void){
 //  0   1
 
 // lOGICAL NOT OPERATER EXAMPLE !
-//   int x,y,z;
-//    x = 5;
-//    y = 6;
-//    z = 10;
-//   if(!(x == y)){
-//   	printf("Hello Muzaffar Ali");
-// 	}else{
-// 		printf("Hello Class");
-// 	}
+  int x,y,z;
+   x = 5;
+   y = 6;
+   z = 10;
+  if(!(x == y)){
+  	printf("Hello Muzaffar Ali");
+	}else{
+		printf("Hello Class");
+	}
  
 
 // -----------------------------
