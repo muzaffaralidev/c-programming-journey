@@ -27,8 +27,6 @@
 //     }else{
 //        printf("Please Enter correct Marks between 0 to 100");
 //     }
-
-
 //     return 0;
 // }
 
@@ -155,7 +153,6 @@ int main(void){
     }else{
        printf("Please Enter correct marks between 0 to 100");
     }
-
 
     return 0;
 }

@@ -22,7 +22,6 @@
 
 
 // 2. Write a C program that takes an integer and determines whether it is positive or negative using if-else. 
-
 // #include <stdio.h>
 // int main(void){
 //      int num;
@@ -66,18 +65,18 @@
 
 
 // 4. Write a C program that takes a person's age and determines whether the person is eligible for a driving license. Assume the minimum age is 18.
-// #include <stdio.h>
-// int main(void){
-//      int age;
+#include <stdio.h>
+int main(void){
+     int age;
      
-//      printf("Enter Your Age: ");
-//      scanf("%d",&age);
+     printf("Enter Your Age: ");
+     scanf("%d",&age);
 
-//      if(age >= 18){
-//         printf("You are Eligible for a driving license.");
-//      }else{
-//         printf("Not Eligible.");
-//      }
+     if(age >= 18){
+        printf("You are Eligible for a driving license.");
+     }else{
+        printf("Not Eligible.");
+     }
 
-//     return 0;
-// }
+    return 0;
+}

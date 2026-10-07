@@ -58,31 +58,31 @@
 
 
 // 3. Write a C program that takes three numbers and uses nested if statements to find the smallest number.
-// #include <stdio.h>
-// int main(void){
-//     int num1,num2,num3;
+#include <stdio.h>
+int main(void){
+    int num1,num2,num3;
     
 
-//     printf("Enter First Number: ");
-//     scanf("%d",&num1);
-//     printf("Enter Second Number: ");
-//     scanf("%d",&num2);
-//     printf("Enter third Number: ");
-//     scanf("%d",&num3);
+    printf("Enter First Number: ");
+    scanf("%d",&num1);
+    printf("Enter Second Number: ");
+    scanf("%d",&num2);
+    printf("Enter third Number: ");
+    scanf("%d",&num3);
 
-//     if(num1 < num2){
-//        if(num1 < num3){
-//         printf("%d is the smallest number.",num1);
-//        }else{
-//         printf("%d is the smallest number.",num3);
-//        }
-//     }else{
-//        if(num2 < num3){
-//         printf("%d is smallest Number",num2);
-//        }else{
-//         printf("%d is smallest Number",num3);
-//        }
-//     }
+    if(num1 < num2){
+       if(num1 < num3){
+        printf("%d is the smallest number.",num1);
+       }else{
+        printf("%d is the smallest number.",num3);
+       }
+    }else{
+       if(num2 < num3){
+        printf("%d is smallest Number",num2);
+       }else{
+        printf("%d is smallest Number",num3);
+       }
+    }
 
-//     return 0;
-// }
+    return 0;
+}
