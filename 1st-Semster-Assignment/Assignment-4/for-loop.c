@@ -1,11 +1,11 @@
 // 1. Write a C program to print numbers from 1 to 10.
 // #include <stdio.h>
-
 // int main(void){
 //     int num;
-//      for(num = 1; num <=10; num++){
-//         printf("%d\n",num);
-//      }
+//     for(num = 1; num <=10; num++){
+//        printf("%d\n",num);
+//     }
+
 //      return 0;
 // }
 
@@ -13,7 +13,6 @@
 
 // 2. Write a C program to print numbers from 10 to 1.
 // #include <stdio.h>
-
 // int main(void){
 //     int num;
 //      for(num = 10; num >=1; num--){
@@ -25,7 +24,6 @@
 
 // 3. Write a C program to print all even numbers from 1 to 50.
 // #include <stdio.h>
-
 // int main(void){
 //     int num;
 //      for(num = 2; num <=50; num+=2){
@@ -36,7 +34,6 @@
 
 // 4. Write a C program to print all odd numbers from 1 to 50.
 // #include <stdio.h>
-
 // int main(void){
 //     int num;
 //      for(num = 1; num <=50; num+=2){
@@ -49,7 +46,6 @@
 
 // 5. Write a C program to calculate the sum of numbers from 1 to 10. 
 // #include <stdio.h>
-
 // int main(void){
 //     int num,sum;
 //      sum = 0;
@@ -63,7 +59,6 @@
 
 // 6. Write a C program to calculate the sum of all even numbers from 1 to 20. 
 // #include <stdio.h>
-
 // int main(void){
 //     int num,sum;
 //      sum = 0;
@@ -132,16 +127,16 @@
 // *   *   *   * 
 // *   *   *   *   *
 
-#include <stdio.h>
-int main(void){
-   int a,b;
+// #include <stdio.h>
+// int main(void){
+//    int a,b;
       
-   for(a = 1; a <= 5; a++){
-      for(b = 1; b<=a; b++){
-         printf("*");
-    }
-      printf("\n");
-   }
+//    for(a = 1; a <= 5; a++){
+//       for(b = 1; b<=a; b++){
+//          printf("*");
+//     }
+//       printf("\n");
+//    }
 
-     return 0;
-}
+//      return 0;
+// }

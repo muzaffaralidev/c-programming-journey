@@ -98,23 +98,23 @@
 
 
 // 8. Write a C program to calculate the factorial of a given number. 
-#include <stdio.h>
-int main(void){
-    int num,i,factorial;
-    i = 1;
-    factorial = 1;
-//   yhn code ko smj kr krna h kal 
+// #include <stdio.h>
+// int main(void){
+//     int num,i,factorial;
+//     i = 1;
+//     factorial = 1;
 
-    printf("Enter number for factorial: ");
-    scanf("%d",&num);
 
-     do{
-        factorial = factorial*i;
-        i++; 
-     }while(i<=num);
-     printf("%d",factorial);
-     return 0;
-}
+//     printf("Enter number for factorial: ");
+//     scanf("%d",&num);
+
+//      do{
+//         factorial = factorial*i;
+//         i++; 
+//      }while(i<=num);
+//      printf("%d",factorial);
+//      return 0;
+// }
 
 
 // 9. Write a C program to calculate the average of numbers from 1 to 10. 
@@ -122,15 +122,14 @@ int main(void){
 // int main(void){
 //    int num,sum;
 //    float average;
-//       sum = 0;
-//       num = 1; 
-//    while(num <= 10){
-//       sum = sum + num;
-//       num++;
-//    }
-
-//     average = sum / 10;
-//     printf("%.2f",average);
+//    num = 1;
+//    sum = 0;
+//    do{
+//      sum = sum + num;
+//      num++;
+//    }while(num <= 10);
+//    average = sum / 10;
+//    printf("%.2f",average);
 //      return 0;
 // }
 
