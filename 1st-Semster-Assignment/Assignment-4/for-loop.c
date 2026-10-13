@@ -1,25 +1,25 @@
 // 1. Write a C program to print numbers from 1 to 10.
-// #include <stdio.h>
-// int main(void){
-//     int num;
-//     for(num = 1; num <=10; num++){
-//        printf("%d\n",num);
-//     }
+#include <stdio.h>
+int main(void){
+    int num;
+    for(num = 1; num <=10; num++){
+       printf("%d\n",num);
+    }
 
-//      return 0;
-// }
+     return 0;
+}
 
 
 
 // 2. Write a C program to print numbers from 10 to 1.
-// #include <stdio.h>
-// int main(void){
-//     int num;
-//      for(num = 10; num >=1; num--){
-//         printf("%d\n",num);
-//      }
-//      return 0;
-// }
+#include <stdio.h>
+int main(void){
+    int num;
+     for(num = 10; num >=1; num--){
+        printf("%d\n",num);
+     }
+     return 0;
+}
 
 
 // 3. Write a C program to print all even numbers from 1 to 50.

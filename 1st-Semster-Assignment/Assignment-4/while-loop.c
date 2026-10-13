@@ -11,8 +11,6 @@
 //      return 0;
 // }
 
-
-
 // 2. Write a C program to print numbers from 10 to 1.
 // #include <stdio.h>
 // int main(void){
@@ -24,6 +22,7 @@
 //      }
 //      return 0;
 // }
+
 
 
 // 3. Write a C program to print all even numbers from 1 to 50.
@@ -144,23 +143,23 @@
 // *   *   *   * 
 // *   *   *   *   *
 
-#include <stdio.h>
-int main(void){
-   int a,b;
-   a = 1;
+// #include <stdio.h>
+// int main(void){
+//    int a,b;
+//    a = 1;
    
-   while(a <= 5){
-      b = 1;
+//    while(a <= 5){
+//       b = 1;
 
-      while(b<=a){
-         printf("*");
+//       while(b<=a){
+//          printf("*");
     
-         b++;
-    }
+//          b++;
+//     }
 
-      printf("\n");
-      a++;
-   }
+//       printf("\n");
+//       a++;
+//    }
 
-     return 0;
-}
+//      return 0;
+// }

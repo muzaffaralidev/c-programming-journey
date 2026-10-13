@@ -142,23 +142,23 @@
 // *   *   *   *   *
 
 
-// #include <stdio.h>
-// int main(void){
-//    int a,b;
-//    a = 1;
+#include <stdio.h>
+int main(void){
+   int a,b;
+   a = 1;
    
-//    do{
-//       b = 1;
+   do{
+      b = 1;
 
-//       do{
-//          printf("*");
+      do{
+         printf("*");
     
-//          b++;
-//     }while(b<=a);
+         b++;
+    }while(b<=a);
     
-//       printf("\n");
-//       a++;
-//    }while(a <= 5);
+      printf("\n");
+      a++;
+   }while(a <= 5);
 
-//      return 0;
-// }
+     return 0;
+}
