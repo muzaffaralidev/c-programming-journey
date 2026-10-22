@@ -10,7 +10,7 @@ int main(void) {
     scanf("%f", &radius);
 
 
-    surfaceArea = 4 * 3.14 radius * radius;
+    surfaceArea = 4 * 3.14 * radius * radius;
 
     printf("surface area of a sphere = %.2f\n", surfaceArea);
 

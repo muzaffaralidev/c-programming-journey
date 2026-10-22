@@ -1,6 +1,5 @@
 // Circumference of a circle
 #include <stdio.h>
-
 int main(void) {
     float circumference;
     int radius;
