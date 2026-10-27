@@ -1,16 +1,34 @@
-// Q7. Write a program to input 10 integers and sort them in ascending order using bubble sort.
-// #include <stdio.h>
+// Q7. Write a program to input 10 integers
+// and sort them in ascending order using Bubble Sort.
 
-int main(void){
-    int a,nums[10];
+#include <stdio.h>
 
+int main(void) {
+    int i, j, temp, nums[10];
 
-    for(a=0;a<=9;a++){
-        printf("Enter Number %d : ",a+1);
-        scanf("%d",&nums[a]);
+    
+    for (i = 0; i < 10; i++) {
+        printf("Enter Number %d: ", i + 1);
+        scanf("%d", &nums[i]);
     }
 
-    //  Continue..
+   
+    for (i = 0; i < 9; i++) {
+        for (j = 0; j < 9 - i; j++) {
+            if (nums[j] > nums[j + 1]) {
+                temp = nums[j];
+                nums[j] = nums[j + 1];
+                nums[j + 1] = temp;
+            }
+        }
+    }
+
+    
+    printf("\nNumbers in Ascending Order:\n");
+
+    for (i = 0; i < 10; i++) {
+        printf("%d\n", nums[i]);
+    }
 
     return 0;
 }
