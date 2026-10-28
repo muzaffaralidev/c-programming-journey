@@ -12,8 +12,8 @@ int main(void) {
         scanf("%d", &nums[i]);
     }
 
-   
-    for (i = 0; i < 9; i++) {
+
+    for (i = 0; i < 9; i++) {  // 1
         for (j = 0; j < 9 - i; j++) {
             if (nums[j] > nums[j + 1]) {
                 temp = nums[j];
