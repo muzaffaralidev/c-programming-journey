@@ -1,25 +1,25 @@
 //#include <stdio.h>
 //
 //
-//int main(void){
-//    float obt_mark,total_mark;
-//    float persontage;
-//    char name[40];
-//    
-//    printf("Enter Your Name: ");
-//    scanf("%39s",&name);
-//    
-//    
-//    printf("Enter Your Marks: ");
-//    scanf("%f",&obt_mark);
-//    printf("Enter Total Marks: ");
-//    scanf("%f",&total_mark);
-//    persontage = (obt_mark / total_mark) * 100;
-//    printf("%s Your persontage is %0.2f",name,persontage);
-//
-//    return 0;
-//}
-//
+int main(void){
+   float obt_mark,total_mark;
+   float persontage;
+   char name[40];
+   
+   printf("Enter Your Name: ");
+   scanf("%39s",&name);
+   
+   
+   printf("Enter Your Marks: ");
+   scanf("%f",&obt_mark);
+   printf("Enter Total Marks: ");
+   scanf("%f",&total_mark);
+   persontage = (obt_mark / total_mark) * 100;
+   printf("%s Your persontage is %0.2f",name,persontage);
+
+   return 0;
+}
+
 
 
 //
